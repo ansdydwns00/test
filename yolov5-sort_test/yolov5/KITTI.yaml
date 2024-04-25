@@ -1,0 +1,9 @@
+train: 'dataset/images/train_dataset'
+val: 'dataset/images/valid_dataset'
+
+
+# number of class
+nc: 1
+
+# Classes
+names: ['Car']

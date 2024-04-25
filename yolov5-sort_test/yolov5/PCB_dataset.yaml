@@ -1,0 +1,13 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: 'D:\Defect_dataset\PCB_dataset\train'
+val: 'D:\Defect_dataset\PCB_dataset\test'
+
+#'train/images'
+# class names
+names:
+  0: 'mouse_bite'
+  1: 'short'
+  2: 'missing_hole'
+  3: 'spurious_copper'
+  4: 'open_circuit'
+  5: 'spur'
